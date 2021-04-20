@@ -7,8 +7,7 @@
         lblBaris1.Text = "Baris 1"
     End Sub
 
-    Private Sub sub2()
-        Dim strText As String
+    Private Sub sub2(ByVal strText As String)
         strText = txtBaris2.Text
         lblBaris2.Text = strText
     End Sub
@@ -19,8 +18,7 @@
         Return strText3
     End Function
 
-    Private Function func2()
-        Dim strText2 As String
+    Private Function func2(ByVal strText2 As String) As String
         strText2 = txtBaris4.Text
         Return strText2
     End Function
