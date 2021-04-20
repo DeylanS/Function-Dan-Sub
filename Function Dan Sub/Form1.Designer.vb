@@ -40,7 +40,7 @@ Partial Class Form1
         Me.btnBaris1.Name = "btnBaris1"
         Me.btnBaris1.Size = New System.Drawing.Size(75, 23)
         Me.btnBaris1.TabIndex = 0
-        Me.btnBaris1.Text = "Button1"
+        Me.btnBaris1.Text = "Submit"
         Me.btnBaris1.UseVisualStyleBackColor = True
         '
         'lblBaris1
@@ -65,7 +65,7 @@ Partial Class Form1
         Me.btnBaris2.Name = "btnBaris2"
         Me.btnBaris2.Size = New System.Drawing.Size(75, 23)
         Me.btnBaris2.TabIndex = 3
-        Me.btnBaris2.Text = "Button2"
+        Me.btnBaris2.Text = "Submit"
         Me.btnBaris2.UseVisualStyleBackColor = True
         '
         'lblBaris2
@@ -92,7 +92,7 @@ Partial Class Form1
         Me.btnBaris3.Name = "btnBaris3"
         Me.btnBaris3.Size = New System.Drawing.Size(75, 23)
         Me.btnBaris3.TabIndex = 6
-        Me.btnBaris3.Text = "Button3"
+        Me.btnBaris3.Text = "Submit"
         Me.btnBaris3.UseVisualStyleBackColor = True
         '
         'txtBaris4
@@ -108,7 +108,7 @@ Partial Class Form1
         Me.btnBaris4.Name = "btnBaris4"
         Me.btnBaris4.Size = New System.Drawing.Size(75, 23)
         Me.btnBaris4.TabIndex = 8
-        Me.btnBaris4.Text = "Button4"
+        Me.btnBaris4.Text = "Submit"
         Me.btnBaris4.UseVisualStyleBackColor = True
         '
         'lblBaris4
