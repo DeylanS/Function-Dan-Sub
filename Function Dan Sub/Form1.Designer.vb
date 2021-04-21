@@ -32,6 +32,7 @@ Partial Class Form1
         Me.txtBaris4 = New System.Windows.Forms.TextBox()
         Me.btnBaris4 = New System.Windows.Forms.Button()
         Me.lblBaris4 = New System.Windows.Forms.Label()
+        Me.lblName = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnBaris1
@@ -120,11 +121,21 @@ Partial Class Form1
         Me.lblBaris4.TabIndex = 9
         Me.lblBaris4.Text = "Label4"
         '
+        'lblName
+        '
+        Me.lblName.AutoSize = True
+        Me.lblName.Location = New System.Drawing.Point(703, 428)
+        Me.lblName.Name = "lblName"
+        Me.lblName.Size = New System.Drawing.Size(85, 13)
+        Me.lblName.TabIndex = 10
+        Me.lblName.Text = "DEYLAN SHIVA"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lblName)
         Me.Controls.Add(Me.lblBaris4)
         Me.Controls.Add(Me.btnBaris4)
         Me.Controls.Add(Me.txtBaris4)
@@ -152,4 +163,5 @@ Partial Class Form1
     Friend WithEvents txtBaris4 As TextBox
     Friend WithEvents btnBaris4 As Button
     Friend WithEvents lblBaris4 As Label
+    Friend WithEvents lblName As Label
 End Class
