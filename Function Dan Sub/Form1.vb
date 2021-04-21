@@ -28,7 +28,7 @@
     End Sub
 
     Private Sub btnBaris2_Click(sender As Object, e As EventArgs) Handles btnBaris2.Click
-        sub2()
+        sub2(txtBaris2.Text)
     End Sub
 
     Private Sub btnBaris3_Click(sender As Object, e As EventArgs) Handles btnBaris3.Click
@@ -36,6 +36,6 @@
     End Sub
 
     Private Sub btnBaris4_Click(sender As Object, e As EventArgs) Handles btnBaris4.Click
-        lblBaris4.Text = func2()
+        lblBaris4.Text = func2(txtBaris4.Text)
     End Sub
 End Class
