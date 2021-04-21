@@ -8,7 +8,6 @@
     End Sub
 
     Private Sub sub2(ByVal strText As String)
-        strText = txtBaris2.Text
         lblBaris2.Text = strText
     End Sub
 
